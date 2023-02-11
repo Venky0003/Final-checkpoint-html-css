@@ -329,6 +329,10 @@ form:hover input {
       .grid-container{
         grid-template-columns: 1fr;
       }
+      .grid-container-1 {
+        display: grid;
+        grid-template-columns: 100%;
+      }
       .md-margin-top {
         margin-top: 500px;
       }
