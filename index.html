@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/51a7cc97b5.js" crossorigin="anonymous"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+    <header class="header">
+       <div class="container">
+        <nav class="flex justify-between align-center">
+            <div class="brand">
+                <h2><span>V</span>ictor.</h2>
+            </div>
+            <label class="bars" for="toggle">
+                <i class="fas fa-bars"></i>
+              </label>
+              <input id="toggle" type="checkbox" />
+            <ul class="flex nav-list">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+       </div>
+    </header>
+    <main>
+        <!-- hero -->
+        <section  class="container hero">
+            <article class="grid-container">
+                <div class="item item-1">
+                    <h3>Sofware Developer</h3>
+                    <h1>Hi, I'm<span class="red">V</span>ictor john From India</h1>
+                </div>
+            </article>
+        </section>
+        <!-- about -->
+        <section class="padding-top container">
+            <article class="grid-container">
+                <div class="item-3">
+                    <img src="assets/media/hero-img.jpg" alt="">
+                </div>
+                <div class="item-4 negative-margin-left">
+                    <h2>About Me</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae natus mollitia debitis perspiciatis, quia a nam est soluta possimus dolor ipsam. Quod quibusdam quam voluptate. Natus debitis aliquid neque, ab, dicta quos quibusdam ad facere doloremque voluptates ratione. Laudantium, possimus in accusantium porro at facere nobis earum! Mollitia, accusamus quas!</p>
+                    <div class="tab flex">
+                        <h4 class="tab-list active" onclick="openTab('skills')">Skills</h4>
+                        <h4 class="tab-list" onclick="openTab('experience')">Experince</h4>
+                        <h4 class="tab-list" onclick="openTab('education')">Education</h4>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <p class="red">UI/UX</p>
+                                <p>Designing Web/App interfaces</p>
+                            </li>
+                            <li>
+                                <p class="red">Web Development</p>
+                                <p>Web app Development</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <p class="red">UI/UX</p>
+                                <p>Designing Web/App interfaces</p>
+                            </li>
+                            <li>
+                                <p class="red">Web Development</p>
+                                <p>Web app Development</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <p class="red">UI/UX</p>
+                                <p>Designing Web/App interfaces</p>
+                            </li>
+                            <li>
+                                <p class="red">Web Development</p>
+                                <p>Learning Full Stack Web Development at Altcampus</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="padding-top container md-margin-top">
+            <article class="article-services">
+                <h2>My Services</h2>
+                <div class="grid-container-1">
+                    <div class="item-5">
+                        <i class="fa-solid fa-code"></i>
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum impedit possimus laborum aliquam quidem, magni voluptatem neque. </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="item-5">
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h4>UI/UX Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum impedit possimus laborum aliquam quidem, magni voluptatem neque.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="item-5">
+                        <i class="fa-brands fa-app-store"></i>
+                        <h4>App Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum impedit possimus laborum aliquam quidem, magni voluptatem neque.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- portfolio section -->
+        <section class="padding-top container">
+            <article class="article-portfolio">
+                <h2>My Work</h2>
+                <div class="grid-container-1">
+                    <div class="item-6">
+                        <img src="assets/media/work-1.png" alt="">
+                        <div class="top-layer">
+                            <h4>Social Media App</h4>
+                            <p>The app connects you to the talented people around the world. Download it from play store</p>
+                            <a class="btn btn-primary" href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div  class="item-6">
+                        <img src="assets/media/work-2.png" alt="">
+                        <div class="top-layer">
+                            <h4> Ott App</h4>
+                            <p>The app connects you to the talented people around the world. Download it from play store</p>
+                            <a class="btn btn-primary"  href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div  class="item-6">
+                        <img src="assets/media/work-3.png" alt="">
+                        <div class="top-layer">
+                            <h4>Ecommerce App</h4>
+                            <p>The app connects you to the talented people around the world. Download it from play store</p>
+                            <a class="btn btn-primary"  href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn btn-secondary">
+                    <a href="#">See More</a>
+                </div>
+            </article>
+        </section>
+        <!-- contact -->
+        <section class="padding-top container">
+            <article class="article-contact">
+                <div class="grid-container-1">
+                    <div class="item-7">
+                        <h2>Contact Me</h2>
+                        <p class="email">info@example.com</p>
+                        <p>+11-1234-5678</p>
+                        <ul class="flex media-links">
+                            <li>
+                                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                        <div class="btn btn-tertiary">
+                            <a href="assets/media/Myecv.pdf" download>Download</a>
+                        </div>
+                    </div>
+                    <div class="item-8">
+                        <form action="index.html">
+                            <fieldset>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text"name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" cols="30" rows="10"
+                            placeholder="Message"></textarea>
+                            </fieldset>
+                            <button class= "btn btn-tertiary"type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
